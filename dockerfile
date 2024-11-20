@@ -11,4 +11,4 @@ RUN poetry install
 # Exponha a porta 8501 para o Streamlit
 EXPOSE 8501
 # Configure o ponto de entrada para iniciar o Streamlit
-ENTRYPOINT ["poetry", "run", "streamlit", "run", "appdois.py", "--server.port=8501"]
+ENTRYPOINT ["poetry", "run", "streamlit", "run", "appdois.py", "--server.port=8502"]
